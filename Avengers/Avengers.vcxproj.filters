@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameComponents\Debug.cpp" />
+    <ClCompile Include="GameComponents\Main.cpp" />
+    <ClCompile Include="GameComponents\Animation.cpp">
+      <Filter>Source\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\CollideEvent.cpp">
+      <Filter>Source\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\Collision.cpp">
+      <Filter>Source\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\Game.cpp">
+      <Filter>Source\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\Keyboard.cpp">
+      <Filter>Source\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\LoadTXT.cpp">
+      <Filter>Source\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\Sprite.cpp">
+      <Filter>Source\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\Graphics.cpp">
+      <Filter>Source\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\Grid2.cpp">
+      <Filter>Source\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\Viewport.cpp">
+      <Filter>Source\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\TileMap2.cpp">
+      <Filter>Source\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Boss1.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Boss1State.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Boss2.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Boss2State.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Captain.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\CaptainState.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Domesto.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\GameObject.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Gigi.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\GigiState.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Item.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\RedBox.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\RedBoxState.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\RunningMan.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\RunningManState.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Shield.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\State.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Tank.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\TankState.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Bullet.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DomestoStayState.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DomestoWalkState.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\SpawnProjectTile.cpp">
+      <Filter>Source\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Bat.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Elevator.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\BatState.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\dsutil.cpp">
+      <Filter>Source\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\Sound.cpp">
+      <Filter>Source\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\TwinBricks.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Exit.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\HPBar.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameComponents\Debug.h" />
+    <ClInclude Include="GameComponents\Animation.h">
+      <Filter>Header\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Boss1.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Boss1State.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Boss2.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Captain.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Boss2State.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\CaptainState.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\CollideEvent.h">
+      <Filter>Header\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\Collision.h">
+      <Filter>Header\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Domesto.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\TankState.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Tank.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\State.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Shield.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\RunningManState.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\RunningMan.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\RedBoxState.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\RedBox.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Item.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\GigiState.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Gigi.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\GameObject.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\Viewport.h">
+      <Filter>Header\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\TileMap2.h">
+      <Filter>Header\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\Sprite.h">
+      <Filter>Header\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\Keyboard.h">
+      <Filter>Header\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\LoadTXT.h">
+      <Filter>Header\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\Grid2.h">
+      <Filter>Header\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\Game.h">
+      <Filter>Header\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\Constants.h">
+      <Filter>Header\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\Graphics.h">
+      <Filter>Header\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Bullet.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DomestoStayState.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DomestoWalkState.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\SpawnProjectTile.h">
+      <Filter>Header\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Bat.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Elevator.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\BatState.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\dsutil.h">
+      <Filter>Header\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\dxutil.h">
+      <Filter>Header\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\Sound.h">
+      <Filter>Header\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\TwinBricks.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Exit.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\HPBar.h">
+      <Filter>Header\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{6bee26bb-0b05-43ca-883d-e6990c9c3722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Component">
+      <UniqueIdentifier>{6c699510-552d-4344-baa7-de54e0cf7000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Object">
+      <UniqueIdentifier>{29072155-50d0-4414-8cd8-4a7b581d05af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{b684ee4e-0543-4800-a6fa-728f01e69a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Component">
+      <UniqueIdentifier>{8e67b989-cf79-463b-b294-32f0cba9e5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object">
+      <UniqueIdentifier>{13a295f1-0cba-43d9-95d6-4e44a70a7abd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
